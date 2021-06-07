@@ -18,17 +18,19 @@ audio {
 </head>
 <body>
     <h1 style="text-align:center;">Converted speech samples</h1>
-    <p>Listen to these speeches and then fill in the attached form.</p>
 
-  <h3 style="text-align:center;">Test 1: Speech quality test</h3>
+
+
   <!-- FF -->
     <h4>Female--Female Control:</h4>
     <table border="1">
     <tr>
       <td>No.</td>
       <td>Source</td>
-      <td>A</td>
-      <td>B</td>
+      <td>Target</td>
+      <td>Auto-VC</td>
+      <td>CycleGAN-VC</td>
+      <td>Proposed</td>
       <td>Text</td>
     </tr>
     <!-- MF 1 sample 4 pieces of audios  -->
@@ -39,6 +41,17 @@ audio {
         <source src="source/f03/0158.wav" type="audio/wav">
         </audio>
       </td>
+      <td>
+        <audio controls>
+        <source src="target/fc03/lip.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/f03-fc03/s1_158.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
       <td>
         <audio controls>
         <source src="A/f03-fc03/F03-FC03_iter200000_Session1_0158.wav" type="audio/wav">
@@ -58,7 +71,17 @@ audio {
         <audio controls>
         <source src="source/f03/0161.wav" type="audio/wav">
         </audio>
-      </td>    
+      </td>
+      <td>
+        <audio controls>
+        <source src="target/fc03/mut.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/f03-fc03/s1_161.wav" type="audio/wav">
+        </audio>
+      </td>
       <td>
         <audio controls>
         <source src="A/f03-fc03/F03-FC03_iter200000_Session1_0161.wav" type="audio/wav">
@@ -77,6 +100,16 @@ audio {
       <td>
         <audio controls>
         <source src="source/f03/0174.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="target/fc03/why_yell.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/f03-fc03/s1_174.wav" type="audio/wav">
         </audio>
       </td>
       <td>
@@ -101,6 +134,16 @@ audio {
       </td>
       <td>
         <audio controls>
+        <source src="target/fc03/one_validated.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/f03-fc03/s1_188.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
         <source src="A/f03-fc03/F03-FC03_iter200000_Session1_0188.wav" type="audio/wav">
         </audio>
       </td>
@@ -117,6 +160,16 @@ audio {
       <td>
         <audio controls>
         <source src="source/f03/0194.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="target/fc03/i_just.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/f03-fc03/s1_194.wav" type="audio/wav">
         </audio>
       </td>
       <td>
@@ -141,11 +194,13 @@ audio {
     <tr>
       <td>No.</td>
       <td>Source</td>
-      <td>A</td>
-      <td>B</td>
+      <td>Target</td>
+      <td>Auto-VC</td>
+      <td>CycleGAN-VC</td>
+      <td>Proposed</td>
       <td>Text</td>
     </tr>
-    <!-- MF 1 sample 4 pieces of audios  -->
+
     <tr>
       <td>1</td>
       <td>
@@ -153,7 +208,16 @@ audio {
         <source src="source/f03/0156.wav" type="audio/wav">
         </audio>
       </td>
-     
+      <td>
+        <audio controls>
+        <source src="target/mc01/witch.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/f03-mc01/s1_156.wav" type="audio/wav">
+        </audio>
+      </td>
       <td>
         <audio controls>
         <source src="A/f03-mc01/F03-MC01_iter200000_Session1_0156.wav" type="audio/wav">
@@ -174,7 +238,16 @@ audio {
         <source src="source/f03/0158.wav" type="audio/wav">
         </audio>
       </td>
-     
+      <td>
+        <audio controls>
+        <source src="target/mc01/lip.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/f03-mc01/s1_158.wav" type="audio/wav">
+        </audio>
+      </td>
       <td>
         <audio controls>
         <source src="A/f03-mc01/F03-MC01_iter200000_Session1_0158.wav" type="audio/wav">
@@ -195,7 +268,16 @@ audio {
         <source src="source/f03/0183.wav" type="audio/wav">
         </audio>
       </td>
-     
+      <td>
+        <audio controls>
+        <source src="target/mc01/cycle.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/f03-mc01/s1_183.wav" type="audio/wav">
+        </audio>
+      </td>
       <td>
         <audio controls>
         <source src="A/f03-mc01/F03-MC01_iter200000_Session1_0183.wav" type="audio/wav">
@@ -216,7 +298,16 @@ audio {
         <source src="source/f03/0194.wav" type="audio/wav">
         </audio>
       </td>
-
+      <td>
+        <audio controls>
+        <source src="target/mc01/i_just.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/f03-mc01/s1_194.wav" type="audio/wav">
+        </audio>
+      </td>
       <td>
         <audio controls>
         <source src="A/f03-fc03/F03-FC03_iter200000_Session1_0194.wav" type="audio/wav">
@@ -237,7 +328,16 @@ audio {
         <source src="source/f03/0195.wav" type="audio/wav">
         </audio>
       </td>
-      
+      <td>
+        <audio controls>
+        <source src="target/mc01/i_was.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/f03-mc01/s1_156.wav" type="audio/wav">
+        </audio>
+      </td>
       <td>
         <audio controls>
          <source src="A/f03-mc01/F03-MC01_iter200000_Session1_0195.wav" type="audio/wav">
@@ -259,11 +359,13 @@ audio {
     <tr>
       <td>No.</td>
       <td>Source</td>
-      <td>A</td>
-      <td>B</td>
+      <td>Target</td>
+      <td>Auto-VC</td>
+      <td>CycleGAN-VC</td>
+      <td>Proposed</td>
       <td>Text</td>
     </tr>
-    <!-- MF 1 sample 4 pieces of audios  -->
+
     <tr>
       <td>1</td>
       <td>
@@ -271,7 +373,16 @@ audio {
         <source src="source/m05/0082.wav" type="audio/wav">
         </audio>
       </td>
-      
+      <td>
+        <audio controls>
+        <source src="target/fc03/bat.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/m03-fc03/s1_082.wav" type="audio/wav">
+        </audio>
+      </td>
       <td>
         <audio controls>
         <source src="A/m05-fc03/M05-FC03_iter200000_Session1_0082.wav" type="audio/wav">
@@ -292,7 +403,16 @@ audio {
         <source src="source/m05/0090.wav" type="audio/wav">
         </audio>
       </td>
-      
+      <td>
+        <audio controls>
+        <source src="target/fc03/trait.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/m03-fc03/s1_090.wav" type="audio/wav">
+        </audio>
+      </td>
       <td>
         <audio controls>
         <source src="A/m05-fc03/M05-FC03_iter200000_Session1_0090.wav" type="audio/wav">
@@ -313,7 +433,16 @@ audio {
         <source src="source/m05/0112.wav" type="audio/wav">
         </audio>
       </td>
-      
+      <td>
+        <audio controls>
+        <source src="target/fc03/hair.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/m03-fc03/s1_112.wav" type="audio/wav">
+        </audio>
+      </td>
       <td>
         <audio controls>
         <source src="A/m05-fc03/M05-FC03_iter200000_Session1_0112.wav" type="audio/wav">
@@ -334,7 +463,16 @@ audio {
         <source src="source/m05/0114.wav" type="audio/wav">
         </audio>
       </td>
-     
+      <td>
+        <audio controls>
+        <source src="target/fc03/beat.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/m03-fc03/s1_114.wav" type="audio/wav">
+        </audio>
+      </td>
       <td>
         <audio controls>
         <source src="A/m05-fc03/M05-FC03_iter200000_Session1_0114.wav" type="audio/wav">
@@ -355,7 +493,16 @@ audio {
         <source src="source/m05/0124.wav" type="audio/wav">
         </audio>
       </td>
-      
+      <td>
+        <audio controls>
+        <source src="target/fc03/stick.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/m03-fc03/s1_124.wav" type="audio/wav">
+        </audio>
+      </td>
       <td>
         <audio controls>
         <source src="A/m05-fc03/M05-FC03_iter200000_Session1_0124.wav" type="audio/wav">
@@ -377,11 +524,13 @@ audio {
     <tr>
       <td>No.</td>
       <td>Source</td>
-      <td>A</td>
-      <td>B</td>
+      <td>Target</td>
+      <td>Auto-VC</td>
+      <td>CycleGAN-VC</td>
+      <td>Proposed</td>
       <td>Text</td>
     </tr>
-    <!-- MF 1 sample 4 pieces of audios  -->
+
     <tr>
       <td>1</td>
       <td>
@@ -389,7 +538,16 @@ audio {
         <source src="source/m05/0082.wav" type="audio/wav">
         </audio>
       </td>
-      
+      <td>
+        <audio controls>
+        <source src="target/mc01/bat.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/m05-mc01/s1_082.wav" type="audio/wav">
+        </audio>
+      </td>
       <td>
         <audio controls>
         <source src="A/m05-mc01/M05-MC01_iter200000_Session1_0082.wav" type="audio/wav">
@@ -410,7 +568,16 @@ audio {
         <source src="source/m05/0090.wav" type="audio/wav">
         </audio>
       </td>
-      
+      <td>
+        <audio controls>
+        <source src="target/mc01/trait.wav" type="audio/wav">
+        </audio>
+      </td>  
+      <td>
+        <audio controls>
+        <source src="auto/m05-mc01/s1_090.wav" type="audio/wav">
+        </audio>
+      </td>
       <td>
         <audio controls>
         <source src="A/m05-mc01/M05-MC01_iter200000_Session1_0090.wav" type="audio/wav">
@@ -431,7 +598,16 @@ audio {
         <source src="source/m05/0094.wav" type="audio/wav">
         </audio>
       </td>
-      
+      <td>
+        <audio controls>
+        <source src="target/mc01/but_he.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/m05-mc01/s1_094.wav" type="audio/wav">
+        </audio>
+      </td>
       <td>
         <audio controls>
         <source src="A/m05-mc01/M05-MC01_iter200000_Session1_0094.wav" type="audio/wav">
@@ -452,7 +628,16 @@ audio {
         <source src="source/m05/0107.wav" type="audio/wav">
         </audio>
       </td>
-      
+      <td>
+        <audio controls>
+        <source src="target/mc01/trace.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/m05-mc01/s1_107.wav" type="audio/wav">
+        </audio>
+      </td>
       <td>
         <audio controls>
         <source src="A/m05-mc01/M05-MC01_iter200000_Session1_0107.wav" type="audio/wav">
@@ -473,7 +658,16 @@ audio {
         <source src="source/m05/0114.wav" type="audio/wav">
         </audio>
       </td>
-      
+      <td>
+        <audio controls>
+        <source src="target/mc01/beat.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+        <source src="auto/m05-mc01/s1_114.wav" type="audio/wav">
+        </audio>
+      </td>
       <td>
         <audio controls>
         <source src="A/m05-mc01/M05-MC01_iter200000_Session1_0114.wav" type="audio/wav">
@@ -488,458 +682,5 @@ audio {
     </tr>
   </table>
   
-  
-  
-  
-  
-  
-  
-
-     <h3 style="text-align:center;">Test 2: Similarity test</h3>
-  
-  <!-- FF -->
-    <h4>Female--Female Control:</h4>
-    <table border="1">
-    <tr>
-      <td>No.</td>
-      <td>X</td>
-      <td>A</td>
-      <td>B</td>
-    </tr>
-    <!-- MF 1 sample 4 pieces of audios  -->
-    <tr>
-      <td>1</td>
-      <td>
-        <audio controls>
-        <source src="target/fc03/lip.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="A/f03-fc03/F03-FC03_iter200000_Session1_0158.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/f03-fc03/F03_Session1_0158-vcto-FC03.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-
-    <tr>
-      <td>2</td>
-      <td>
-        <audio controls>
-        <source src="target/fc03/mut.wav" type="audio/wav">
-        </audio>
-      </td>    
-      <td>
-        <audio controls>
-        <source src="A/f03-fc03/F03-FC03_iter200000_Session1_0161.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/f03-fc03/F03_Session1_0161-vcto-FC03.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-
-    <tr>
-      <td>3</td>
-      <td>
-        <audio controls>
-        <source src="target/fc03/why_yell.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="A/f03-fc03/F03-FC03_iter200000_Session1_0174.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/f03-fc03/F03_Session1_0174-vcto-FC03.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-
-    <tr>
-      <td>4</td>
-      <td>
-        <audio controls>
-        <source src="target/fc03/one_validated.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="A/f03-fc03/F03-FC03_iter200000_Session1_0188.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/f03-fc03/F03_Session1_0188-vcto-FC03.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-
-    <tr>
-      <td>5</td>
-      <td>
-        <audio controls>
-        <source src="target/fc03/i_just.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="A/f03-fc03/F03-FC03_iter200000_Session1_0194.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/f03-fc03/F03_Session1_0194-vcto-FC03.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-    <!-- FM -->
-    <h4>Female--Male Control:</h4>
-    <table border="1">
-    <tr>
-      <td>No.</td>
-      <td>X</td>
-      <td>A</td>
-      <td>B</td>
-    </tr>
-    <!-- MF 1 sample 4 pieces of audios  -->
-    <tr>
-      <td>1</td>
-      <td>
-        <audio controls>
-        <source src="target/mc01/witch.wav" type="audio/wav">
-        </audio>
-      </td>
-     
-      <td>
-        <audio controls>
-        <source src="A/f03-mc01/F03-MC01_iter200000_Session1_0156.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/f03-mc01/F03_Session1_0156-vcto-MC01.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-
-    <tr>
-      <td>2</td>
-      <td>
-        <audio controls>
-        <source src="target/mc01/lip.wav" type="audio/wav">
-        </audio>
-      </td>
-     
-      <td>
-        <audio controls>
-        <source src="A/f03-mc01/F03-MC01_iter200000_Session1_0158.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/f03-mc01/F03_Session1_0158-vcto-MC01.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-
-    <tr>
-      <td>3</td>
-      <td>
-        <audio controls>
-        <source src="target/mc01/cycle.wav" type="audio/wav">
-        </audio>
-      </td>
-     
-      <td>
-        <audio controls>
-        <source src="A/f03-mc01/F03-MC01_iter200000_Session1_0183.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/f03-mc01/F03_Session1_0183-vcto-MC01.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-
-    <tr>
-      <td>4</td>
-      <td>
-        <audio controls>
-        <source src="target/mc01/i_just.wav" type="audio/wav">
-        </audio>
-      </td>
-
-      <td>
-        <audio controls>
-        <source src="A/f03-fc03/F03-FC03_iter200000_Session1_0194.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-         <source src="B/f03-mc01/F03_Session1_0194-vcto-MC01.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-
-    <tr>
-      <td>5</td>
-      <td>
-        <audio controls>
-        <source src="target/mc01/i_was.wav" type="audio/wav">
-        </audio>
-      </td>
-      
-      <td>
-        <audio controls>
-         <source src="A/f03-mc01/F03-MC01_iter200000_Session1_0195.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-    <source src="B/f03-mc01/F03_Session1_0195-vcto-MC01.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-      </table>
-    
-    
-     <!-- MF -->
-    <h4>Male--Female Control:</h4>
-    <table border="1">
-    <tr>
-      <td>No.</td>
-      <td>X</td>
-      <td>A</td>
-      <td>B</td>
-    </tr>
-    <!-- MF 1 sample 4 pieces of audios  -->
-    <tr>
-      <td>1</td>
-      <td>
-        <audio controls>
-        <source src="target/fc03/bat.wav" type="audio/wav">
-        </audio>
-      </td>
-      
-      <td>
-        <audio controls>
-        <source src="A/m05-fc03/M05-FC03_iter200000_Session1_0082.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/m05-fc03/M05_Session1_0082-vcto-FC03.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-
-    <tr>
-      <td>2</td>
-      <td>
-        <audio controls>
-        <source src="target/fc03/trait.wav" type="audio/wav">
-        </audio>
-      </td>
-      
-      <td>
-        <audio controls>
-        <source src="A/m05-fc03/M05-FC03_iter200000_Session1_0090.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/m05-fc03/M05_Session1_0090-vcto-FC03.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-
-    <tr>
-      <td>3</td>
-      <td>
-        <audio controls>
-        <source src="target/fc03/hair.wav" type="audio/wav">
-        </audio>
-      </td>
-      
-      <td>
-        <audio controls>
-        <source src="A/m05-fc03/M05-FC03_iter200000_Session1_0112.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/m05-fc03/M05_Session1_0112-vcto-FC03.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-
-    <tr>
-      <td>4</td>
-      <td>
-        <audio controls>
-        <source src="target/fc03/beat.wav" type="audio/wav">
-        </audio>
-      </td>
-     
-      <td>
-        <audio controls>
-        <source src="A/m05-fc03/M05-FC03_iter200000_Session1_0114.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/m05-fc03/M05_Session1_0114-vcto-FC03.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-
-    <tr>
-      <td>5</td>
-      <td>
-        <audio controls>
-        <source src="target/fc03/stick.wav" type="audio/wav">
-        </audio>
-      </td>
-      
-      <td>
-        <audio controls>
-        <source src="A/m05-fc03/M05-FC03_iter200000_Session1_0124.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/m05-fc03/M05_Session1_0124-vcto-FC03.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-  </table>
-  
-  
-   <!-- MM -->
-    <h4>Male--Male Control:</h4>
-    <table border="1">
-    <tr>
-      <td>No.</td>
-      <td>X</td>
-      <td>A</td>
-      <td>B</td>
-    </tr>
-    <!-- MF 1 sample 4 pieces of audios  -->
-    <tr>
-      <td>1</td>
-      <td>
-        <audio controls>
-        <source src="target/mc01/bat.wav" type="audio/wav">
-        </audio>
-      </td>
-      
-      <td>
-        <audio controls>
-        <source src="A/m05-mc01/M05-MC01_iter200000_Session1_0082.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/m05-mc01/M05_Session1_0082-vcto-MC01.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-
-    <tr>
-      <td>2</td>
-      <td>
-        <audio controls>
-        <source src="target/mc01/trait.wav" type="audio/wav">
-        </audio>
-      </td>
-      
-      <td>
-        <audio controls>
-        <source src="A/m05-mc01/M05-MC01_iter200000_Session1_0090.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/m05-mc01/M05_Session1_0090-vcto-MC01.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-
-    <tr>
-      <td>3</td>
-      <td>
-        <audio controls>
-        <source src="target/mc01/but_he.wav" type="audio/wav">
-        </audio>
-      </td>
-      
-      <td>
-        <audio controls>
-        <source src="A/m05-mc01/M05-MC01_iter200000_Session1_0094.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/m05-mc01/M05_Session1_0094-vcto-MC01.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-
-    <tr>
-      <td>4</td>
-      <td>
-        <audio controls>
-        <source src="target/mc01/trace.wav" type="audio/wav">
-        </audio>
-      </td>
-      
-      <td>
-        <audio controls>
-        <source src="A/m05-mc01/M05-MC01_iter200000_Session1_0107.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/m05-mc01/M05_Session1_0107-vcto-MC01.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-
-    <tr>
-      <td>5</td>
-      <td>
-        <audio controls>
-        <source src="target/mc01/beat.wav" type="audio/wav">
-        </audio>
-      </td>
-      
-      <td>
-        <audio controls>
-        <source src="A/m05-mc01/M05-MC01_iter200000_Session1_0114.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-        <source src="B/m05-mc01/M05_Session1_0114-vcto-MC01.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-  </table>
-       
-
 </body>
 </html>
